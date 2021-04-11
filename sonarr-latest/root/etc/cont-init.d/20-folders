@@ -12,8 +12,8 @@ if [ ! -d /share/downloads ]; then
   chown -R abc:abc /share/downloads
 fi
 
-if [ ! -d /config/radarr ]; then
-  echo "Creating /config/radarr"
-  mkdir -p /config/radarr
-  chown -R abc:abc /config/radarr
+if [ ! -d /config/sonarr ]; then
+  echo "Creating /config/sonarr"
+  mkdir -p /config/sonarr
+  chown -R abc:abc /config/sonarr
 fi
