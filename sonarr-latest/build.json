@@ -1,0 +1,8 @@
+{
+  "build_from": {
+    "armhf": "linuxserver/sonarr:arm32v7-",
+    "armv7": "linuxserver/sonarr:arm32v7-",
+    "aarch64": "linuxserver/sonarr:arm64v8-",
+    "amd64": "linuxserver/sonarr:amd64-"
+  }
+}
