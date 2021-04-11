@@ -4,7 +4,7 @@
   "upstream": "latest",
   "slug": "sonarr_nas_latest",
   "description": "Sonarr NAS latest fork from https://github.com/alexbelgium/hassio-addons",
-  "url": "https://github.com/eriksp/hassio-addons",
+  "url": "http://github.com/eriksp/hassio-addons",
   "startup": "services",
   "arch": ["aarch64", "amd64", "armv7", "armhf"],
   "ports": {
