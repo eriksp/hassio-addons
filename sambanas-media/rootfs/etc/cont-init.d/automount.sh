@@ -19,8 +19,8 @@ elif bashio::config.has_value 'moredisks'; then
      for disk in $MOREDISKS 
      do
          bashio::log.info "Mount ${disk}"
-         mkdir -p /media/$disk && \
-             mount -t auto /dev/disk/by-label/$disk /media/$disk -o nosuid,relatime,noexec && \
+         mkdir -p /mnt/data/supervisor/media/$disk && \
+             mount -t auto /dev/disk/by-label/$disk /mnt/data/supervisor/media/$disk -o nosuid,relatime,noexec && \
              cat /tmp/moredisk.smb.conf >> "${CONF}" && \
              sed -i "s|%%DISKNAME%%|${disk}|g" "${CONF}" && \
              bashio::log.info "Success!"   
